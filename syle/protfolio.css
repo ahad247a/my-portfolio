@@ -12,6 +12,7 @@
 .logo h2 { 
     font-size: 45px;
     font-style: bold;
+    
 }
  nav .menu { 
     display: flex;
@@ -26,15 +27,24 @@
     border-radius: 7px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 .colour-orange { 
-    color: #FD6E0A;
+    color: #FD6E0A
 
 }
 header {
-    background-color: #fdddc7;
+    background-color: #f2e2e2;
     padding-top: 50px;
+
+    background:
+    url("../images/developer.png"),
+     url(../images/header_bg.png), #f2e2e2;
+    background-position :  top left, bottom right;
+    background-repeat : no-repeat;
 }
+
+
 nav { 
     width: 71%;
     max-width: 1140px;
@@ -48,4 +58,36 @@ nav {
     color: #474747;
     text-decoration: none;
  }
+ .banner-content {
+    max-width: 585px;
+ }
  
+ #banner { 
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .banner-content h2 { 
+    font-size: 45px;
+    font-weight: 600px ;
+    color: #474747;
+    margin-bottom: 5px;
+   }
+   .banner-content h1 { 
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+   }
+.banner-content p { 
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-image { 
+    max-width: 585px;
+    vertical-align: middle;
+}

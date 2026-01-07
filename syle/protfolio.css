@@ -110,7 +110,7 @@ nav {
     vertical-align: middle;
 }
 
-#about { 
+#about , #skill , #resume { 
   padding-top: 130px ;
 }
 
@@ -139,10 +139,7 @@ font-size: 20px;
     
 }
 
-#skill { 
-    padding-top: 130px ;
-    
-}
+
 #skill .skill-conteinar {
     width: 71%;
     max-width: 1140px;
@@ -183,3 +180,50 @@ font-size: 20px;
     line-height: 28px;
 
     }
+
+   #resume .resume-conteinar { 
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0 ;
+    gap: 24px;
+    display: flex;
+
+    }
+
+    
+   .resume-conteinar hr { 
+    margin: 30 0 ;
+   }
+
+    .resume-conteinar .section-tittle { 
+        color: #474747;
+        font-size: 30px;
+        margin-bottom: 30px;
+
+    }
+
+   .resume-card { 
+    max-width: 511px;
+    margin-right: 47px;
+   }
+
+   .resume-card .card-tittle { 
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+   }
+   .resume-card .card-info { 
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color: #757575;
+   }
+
+    .resume-card .card-text { 
+    font-size: 16px;
+     
+    line-height: 28px;
+    
+    color: #757575;
+   }
